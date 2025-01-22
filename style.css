@@ -9,12 +9,34 @@
   /* colour */
   .orange{
     color: #FEA301;
+  }
+  .sky-blue{
+    color: #01ACFD;
+  }
+  .light-sky-blue{
+    color: #05D4DF;
 
   }
 
+  .violet{
+    color: #5D58EF;
+  }
+
   /* Nav Bar Style */
+
+  nav h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 11px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
   .nav-bar{
     display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
     
   }
   nav ul{
@@ -22,9 +44,31 @@
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-     
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 400;     
+  } 
+
+  nav ul li{
+    list-style: none;
+    
+  }
+  nav ul a{
+    text-decoration: none;
+  }
+  .contact-btn{
+    width: 197px;
+    height: 50px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
   }
   
+  /* marquee section */
+
   .marquee {
     margin-top: 50px;
     font-size: 20px;
@@ -42,17 +86,29 @@
   }
 
   /* banner style */
+
   .banner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-content: center;
+    width: calc(100% - 500px);
+    height: 575px;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   #Empowering{
     color: #FEA301;
   }
+
   #vision{
     color: #01ACFD;
+  }
+
+  .banner-content{
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
   }
 
   .banner-title{
@@ -86,6 +142,7 @@
 
   }
  .banner-pic{
+    margin-left: 50px;
     width: 310px, 575px;
  }
 
@@ -93,7 +150,12 @@
  /* curriculum sec style */
 
 .curriculum-sec{
-    width: 100%;
+  
+    margin-left: auto;
+    margin-right: auto;
+    height: 480px;
+    width: calc(100% - 500px);
+    align-items: center;
     background-image: url(assets/bg.png) ;
     background-repeat: no-repeat;
     
@@ -109,9 +171,11 @@
     text-align: center;
 }
 .carts{
+  
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    align-items: center;
+    gap: 25px;
 
 }
 .cart1{
