@@ -25,6 +25,21 @@
      
   }
   
+  .marquee {
+    margin-top: 50px;
+    font-size: 20px;
+
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 
   /* banner style */
   .banner{
@@ -76,6 +91,7 @@
 
 
  /* curriculum sec style */
+
 .curriculum-sec{
     width: 100%;
     background-image: url(assets/bg.png) ;
@@ -207,11 +223,12 @@
     
 }
 
-/* stories section  */
+/* stories section style  */
 
 .stories{
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
+
 }
 
 .stories-carts{
@@ -220,5 +237,26 @@
 
 }
 
+
+
+/* footer style */
+
+.footer-section{
+    width: 1439px;
+    height: 519px;
+    background-color: #01ACFD;
+    display: flex;
+    padding: 123px, 174px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-text{
+    padding: 139px, 123px, 174px, 229px;
+    display: flex;
+    flex-direction: row;
+
+}
 
 

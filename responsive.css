@@ -7,27 +7,27 @@
     /* banner sec */
     
         .sec-title{
-        color: rgb(0, 0, 0);
-        font-family: Quicksand;
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 33px;
-        letter-spacing: 0%;
-        text-align: center;
+            color: rgb(0, 0, 0);
+            font-family: Quicksand;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0%;
+            text-align: center;
         }
     
     
         .banner{
-        flex-direction: column;
-        align-items: center;
+            flex-direction: column;
+            align-items: center;
         }
         .banner-title{
-        font-family: Quicksand;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0%;
-        text-align: center;
+            font-family: Quicksand;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0%;
+            text-align: center;
         }
         .btn-primary{
             flex-direction: column;
