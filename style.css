@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  /* shared style */
+  /* colour */
+  .orange{
+    color: #FEA301;
+
+  }
+
+  /* Nav Bar Style */
+  .nav-bar{
+    display: flex;
+    
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+     
+  }
+  
+
+  /* banner style */
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  #Empowering{
+    color: #FEA301;
+  }
+  #vision{
+    color: #01ACFD;
+  }
+
+  .banner-title{
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+  }
+  .banner-des{
+    margin: 24px 0px;
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+
+  }
+ .banner-pic{
+    width: 310px, 575px;
+ }
+
+
+ /* curriculum sec style */
+.curriculum-sec{
+    width: 100%;
+    background-image: url(assets/bg.png) ;
+    background-repeat: no-repeat;
+    
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.cart1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dddddd;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(#DEF5FF, #ffffff);
+      
+}
+.cart2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dddddd;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+      
+}
+.cart3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dddddd;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(#F2E8FF, #ffffff);
+      
+}
+.cart-des{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+.card-btn-1{
+    color: #64C8FF;
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-color: none;
+}
+.card-btn-2{
+    color: #F0AA00;
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-color: none;
+}
+.card-btn-3{
+    color: #8700FF;
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-color: none;
+}
+
+/* navigation button style */
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    
+}
+.nav-btn {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* responsive */
+
+  @media screen and (max-width: 576px ) {
+
+
+/* banner sec */
+
+
+    .banner{
+    flex-direction: column;
+    align-items: center;
+    }
+    .banner-title{
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .btn-primary{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+    .banner-des{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18;
+    padding: 0px;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .banner-pic{
+        justify-content: center
+     }
+
+
+/* curriculum section */
+     .carts{
+        display: grid;
+        grid-template-columns: 1, 1fr;
+     }
+
+
+
+/* navigation button */
+
+     .navigation{
+        display: none;
+     }
+
+
+  }
