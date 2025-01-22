@@ -1,0 +1,76 @@
+
+  /* responsive */
+
+  @media screen and (max-width: 576px ) {
+
+
+    /* banner sec */
+    
+        .sec-title{
+        color: rgb(0, 0, 0);
+        font-family: Quicksand;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0%;
+        text-align: center;
+        }
+    
+    
+        .banner{
+        flex-direction: column;
+        align-items: center;
+        }
+        .banner-title{
+        font-family: Quicksand;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: center;
+        }
+        .btn-primary{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+        }
+        .banner-des{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18;
+        padding: 0px;
+        color: rgb(17, 17, 17);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        }
+        .banner-pic{
+            justify-content: center
+         }
+    
+    
+    /* curriculum section */
+         .carts{
+            display: grid;
+            grid-template-columns: 1, 1fr;
+         }
+    
+    
+    
+    /* navigation button */
+    
+         .navigation{
+            display: none;
+         }
+
+    /* stories section */
+
+         
+    
+    
+      }
+    
